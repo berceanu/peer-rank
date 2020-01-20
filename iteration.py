@@ -19,4 +19,4 @@ if __name__ == '__main__':
 
     c1 = np.array([10, 12.])
     c2 = np.array([3, 5.])
-    optimize.fixed_point(func, [1.2, 1.3], args=(c1, c2))
+    o = optimize.fixed_point(func, [1.2, 1.3], args=(c1, c2))
