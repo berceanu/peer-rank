@@ -1,0 +1,20 @@
+# conda env create -f environment.yml
+name: peer-rank
+
+channels:
+- conda-forge
+
+dependencies:
+  # general numerics (version controlled)
+  - python=3.7*
+  - numpy=1.17*
+  - scipy=1.4*
+  # plotting and serialization
+  - matplotlib=3.1*
+  - pytest-flakes
+  # dev tools
+  - black
+  - pip
+  - setuptools
+  - wheel
+  - pre_commit
